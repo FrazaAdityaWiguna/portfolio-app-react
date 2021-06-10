@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+$primary-orange: #f9ab00;
+$primary-dark: rgba(255, 255, 255, 0);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 5rem;
+}
+
+/*---- Menu Links ----*/
+
+nav{
+
+  a.nav-link{
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 0 10px;
+    font-size: 0.8rem;
+    border-top: 3px solid $primary-dark;
+
+    &:hover{
+      border-top: 3px solid $primary-orange;
+    }
+  }
+
+  ul li{
+    text-transform: uppercase;
+  }
+
+}
